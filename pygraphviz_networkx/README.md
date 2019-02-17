@@ -2,6 +2,8 @@
 
 ![Font Network image](./readme_img.png "Font network")
 
+日本語の説明は[こちら](https://hytmachineworks.hatenablog.com/entry/2019/02/17/195353)
+
 Build DiGraph by [networkx](https://networkx.github.io/), 
 draw svg file by [PyGraphviz](https://pygraphviz.github.io/).  
 And svg file convert to png file by [CairoSVG](https://cairosvg.org/)
