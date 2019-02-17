@@ -24,7 +24,7 @@ get font name dictionary.
 
 So I can freely use Graphviz on Multibyte word environment.
 
-##Usage
+## Usage
 
 Try command beleow
 
@@ -33,7 +33,7 @@ Try command beleow
 After that you get png and svg file on ./output/ directory.
 
 ---
-###FYI.
+### FYI.
 
 You can get conda env YAML file, pgv_nx.yml . 
 Try command below, you can create same environment on me.
