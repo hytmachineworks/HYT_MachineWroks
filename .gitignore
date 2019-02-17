@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Script Output
+*/output/*.json
+*/output/*.png
+*/output/*.svg
+
+# PyCharm
+.idea/
