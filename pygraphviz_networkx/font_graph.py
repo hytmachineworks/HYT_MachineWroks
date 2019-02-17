@@ -143,11 +143,7 @@ def draw_font_graph():
     svg_file_name = file_name.format(format=file_format)
     a_graph.draw(svg_file_name, prog="fdp", format=file_format)
 
-    # convert to svg to png
-    with open(svg_file_name, mode="r", encoding="utf-8") as f:
-        svg_code = f.read()
-
-    svg2png(bytestring=svg_code, write_to=file_name.format(format="png"))
+    svg2png(url=svg_file_name, write_to=file_name.format(format="png"))
 
 
 if __name__ == "__main__":
